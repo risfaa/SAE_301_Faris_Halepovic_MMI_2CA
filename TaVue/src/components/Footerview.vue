@@ -5,8 +5,8 @@
         <!-- Liens cliquables au milieu à gauche -->
         <div class="footer-links-left flex flex-col space-y-4">
             <h3 class="font-bold">Nos produits</h3>
-            <a href="/your-link" class="text-black hover:text-gray-300">Nos lunettes</a>
-            <a href="/your-link" class="text-black hover:text-gray-300">Personnalisation</a>
+            <a href="/lunettes" class="text-black hover:text-gray-300">Nos lunettes</a>
+            <a href="/personnalisation" class="text-black hover:text-gray-300">Personnalisation</a>
         </div>
 
         <!-- Liens cliquables au milieu à droite -->
@@ -18,7 +18,7 @@
       
 
       <!-- Logo -->
-      <a href="/home" class="footer-logo lg:mr-60">
+      <a href="/" class="footer-logo lg:mr-60">
         <img src="../assets/icones/logo_TaVue.svg" alt="Footer Logo" class="w-28 h-auto " />
       </a>
       

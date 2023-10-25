@@ -24,33 +24,43 @@
 
   <!-- carde produits -->
   <div class="flex flex-wrap overflow-hidden md:px-5 mt-12 justify-between mx-32">
+    
+        <RouterLink to="/lunettes">
         <div class="bg-gray-200 p-12 w-60 text-center space-y-4">
             <img class="w-60 h-30" src="../assets/img/lunette_pont.webp" alt="image de lunette">
             <p>Parisienne Élégance</p>
             <img class="mx-auto" src="../assets/icones/icone_personnalisation.svg" alt="icone de personnalisation">
             <p>50.00 €</p>
         </div>
+        </RouterLink>
 
+        <RouterLink to="/lunettes">
         <div class="bg-gray-200 p-12 w-60 text-center space-y-4">
             <img class="w-60 h-30" src="../assets/img/lunette_base.webp" alt="image de lunette">
             <p>Montmartre chic</p>
             <img class="mx-auto" src="../assets/icones/icone_personnalisation.svg" alt="icone de personnalisation">
             <p>50.00 €</p>
         </div>
+        </RouterLink>
 
+        <RouterLink to="/lunettes">
         <div class="bg-gray-200 p-12 w-60 text-center space-y-4">
             <img class="w-60 h-30" src="../assets/img/lunette_ronde.webp" alt="image de lunette">
             <p>Bordeaux Charme</p>
             <img class="mx-auto" src="../assets/icones/icone_personnalisation.svg" alt="icone de personnalisation">
             <p>50.00 €</p>
         </div>
+        </RouterLink>
 
+        <RouterLink to="/lunettes">
         <div class="bg-gray-200 p-12 w-60 text-center space-y-4">
             <img class="w-60 h-30" src="../assets/img/lunette_large.webp" alt="image de lunette">
             <p>Côte d'Azur Classique</p>
             <img class="mx-auto" src="../assets/icones/icone_personnalisation.svg" alt="icone de personnalisation">
             <p>50.00 €</p>
         </div>
+        </RouterLink>
+
    </div>
 
    <!-- text historique personnalisation -->
