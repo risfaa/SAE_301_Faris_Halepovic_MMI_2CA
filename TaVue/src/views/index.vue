@@ -104,7 +104,7 @@
     <img class="mt-40" src="../assets/img/personnes-composition-lunettes-1.webp" alt="image de plusieurs personnes">
   </div>
 
-  <!-- Map google -->
+  <!-- Map -->
   <div class="map-container">
       <MapView />
     </div>

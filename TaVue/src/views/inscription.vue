@@ -28,7 +28,7 @@
         <p class="font-nunito text-gray-700 mt-4">Vous avez déjà un compte ?</p>
 
         <!-- Texte "Se connecter" (utilisez RouterLink) -->
-        <RouterLink to="/compte" class="font-nunito text-bleu register-link">Se connecter</RouterLink>
+        <RouterLink to="/compte" class="font-nunito text-bleu register-link mt-2 mb-14">Se connecter</RouterLink>
 
     </div>
 

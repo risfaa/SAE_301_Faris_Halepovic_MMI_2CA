@@ -1,11 +1,11 @@
 <template>
-    <div class="login-container flex flex-col items-center justify-center mt-16 mb-24">
+    <div class="login-container flex flex-col items-center justify-center mt-14 mb-24">
 
       <!-- Icône (utilisez votre propre icône) -->
       <img src="../assets/icones/profil_icone.svg" alt="Icône de connexion" class="w-16 h-16 mb-4" />
 
       <!-- Section E-mail -->
-        <input type="email" id="email" placeholder="E-Mail ou nom d'utilisateur" class="px-10 py-2 w-80  border-2 mb-5 text-lg"/>
+        <input type="email" id="email" placeholder="E-Mail ou nom d'utilisateur" class="px-10 py-2 w-80 border-2 mt-2 mb-5 text-lg"/>
 
       <!-- Section Mot de passe -->
         <input type="password" id="password" placeholder="Mot de passe"  class=" px-10 py-2 w-80 border-2 text-lg"/>
@@ -20,7 +20,7 @@
       </RouterLink>
 
       <!-- Bouton "Se connecter avec Github" (utilisez RouterLink) -->
-      <RouterLink to="/connexion-github" class="font-montserrat flex github-login-button mt-5 px-16 py-2 border-2">
+      <RouterLink to="/connexion-github" class="font-montserrat flex github-login-button mt-6 px-16 py-2 border-2">
         <img class="w-4 h-4 mr-2 -ml-4 mt-1" src="../assets/icones/github_icone.svg" alt="icone github">
           Se connecter avec Github
       </RouterLink>
@@ -29,7 +29,7 @@
       <p class="font-nunito text-gray-700 mt-6">Vous n'avez pas de compte ?</p>
 
       <!-- Texte "S'inscrire" (utilisez RouterLink) -->
-      <RouterLink to="/inscription" class="font-nunito text-bleu register-link">S'inscrire</RouterLink>
+      <RouterLink to="/inscription" class="font-nunito text-bleu register-link mt-2 mb-16">S'inscrire</RouterLink>
 
     </div>
   </template>
