@@ -12,7 +12,7 @@
         <!-- Liens cliquables au milieu à droite -->
         <div class="footer-links-right flex flex-col space-y-4 ml-20">
             <h3 class="font-bold">Information</h3>
-            <a href="/another-link" class="text-black hover:text-gray-300">Compte</a>
+            <a href="/compte" class="text-black hover:text-gray-300">Compte</a>
         </div>
     </div>
       

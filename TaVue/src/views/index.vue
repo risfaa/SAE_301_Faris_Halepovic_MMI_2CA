@@ -104,4 +104,13 @@
     <img class="mt-40" src="../assets/img/personnes-composition-lunettes-1.webp" alt="image de plusieurs personnes">
   </div>
 
+  <!-- Map google -->
+  <div class="map-container">
+      <MapView />
+    </div>
+
 </template>
+
+<script setup>
+    import MapView from '../components/mapview.vue';
+</script>
