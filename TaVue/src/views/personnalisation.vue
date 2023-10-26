@@ -7,7 +7,7 @@
     </div>
 
     <!-- personnalistion -->
-    <div>
+    <div class="flex">
 
         <!-- lunette personnalisable -->
 
