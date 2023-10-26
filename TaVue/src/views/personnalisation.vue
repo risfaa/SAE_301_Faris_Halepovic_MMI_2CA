@@ -1,26 +1,13 @@
 <template>
     <!-- text intro -->
     <div>
-        <p class=" text-xl text-center mt-14">
+        <p class=" text-xl text-center mt-14 -mb-16">
             Personnalisez ici votre paire à votre goût !
         </p>
     </div>
 
     <!-- personnalistion -->
-    <div class="flex">
-
-        <!-- lunette personnalisable -->
-
-        <div class="mt-40 mx-80">
-            <img src="../assets/img/lunette_base.webp" alt="image lunette">
-        </div>
-
-        <!-- choix de couleur pour personnalisation -->
-        <div>
-            <!-- option choix de couleur -->
-        </div>
-
-    </div>
+    <configurateur />
 
     <!-- text description + caractéristique lunette -->
     <div class="grid grid-cols-2 mt-40 mb-20 mx-80">
@@ -66,3 +53,9 @@
     </div>
 
 </template>
+
+<script setup>
+
+import configurateur from '../components/configurateur.vue';
+
+</script>
